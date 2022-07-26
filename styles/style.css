@@ -1,4 +1,35 @@
+.top{
+  background-color: #D6E6F2;
+  padding: 20px;
+}
+.middle
+{
+  height:200px;
+  width: 200px;
+  background-color: #F7FBFC;
+}
+.bottom
+{
+  height:200px;
+  width: 200px;
+  background-color: #B9D7EA;
+}
 body
 {
-  background-color: blue;
+  background-color: #F7FBFC;
+  margin: 0;
+  padding: 0;
+
+}
+h1
+{
+  margin-top: 0;
+}
+nav
+{
+  float: right;
+}
+img
+{
+  display: block;
 }
