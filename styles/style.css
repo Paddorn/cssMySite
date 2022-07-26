@@ -36,6 +36,7 @@ h2
   font-family: 'Square Peg', cursive;
   font-size: 5vh;
   margin: 0;
+  padding: 0;
 }
 nav
 {
@@ -62,7 +63,6 @@ img
   font-size: 1.25em;
   font-weight: bold;
   text-decoration: underline;
-
 }
 .top-h1
 {
@@ -88,6 +88,7 @@ p
 {
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
+  margin: 2px;
 }
 .footer-link img {
 	display:inline-block;
