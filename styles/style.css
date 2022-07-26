@@ -1,28 +1,29 @@
-.top{
+.top-container{
   background-color: #D6E6F2;
   padding-top: 20px;
   text-align: center;
   position: relative;
 }
-.middle
+.middle-container
 {
-  height:200px;
-  width: 200px;
+
   background-color: #F7FBFC;
 }
-.bottom
+.bottom-container
 {
-  height:200px;
-  width: 200px;
   background-color: #B9D7EA;
 }
 body
 {
   background-color: #F7FBFC;
   margin: 0;
-
   text-align: center;
 
+}
+.table
+{
+  margin-left: auto;
+  margin-right: auto;
 }
 h1
 {
@@ -31,6 +32,11 @@ h1
   font-size: 10vh;
   padding-top: 150px;
 
+}
+h2
+{
+  font-family: 'Square Peg', cursive;
+  font-size: 5vh;
 }
 nav
 {
@@ -73,4 +79,9 @@ p
 {
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
+}
+.footer-link img {
+	display:inline-block;
+	padding: 5px;
+  max-height: 25px;
 }
