@@ -69,3 +69,8 @@ img
   left:  400px;
   bottom: 300px;
 }
+p
+{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
