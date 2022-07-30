@@ -19,6 +19,13 @@ body
   background-color: #F7FBFC;
   margin: 0;
   text-align: center;
+}
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 10px;
+  border-color: #EAF6F6;
+  width: 5%
 
 }
 .table
@@ -133,4 +140,23 @@ p
 a
 {
   color: #11999E
+}
+button {
+  background: #3498db;
+  background-image: linear-gradient(to bottom,#B9D7EA, #3cb0fd);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 8%;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin-bottom: 50px;
+}
+
+button:hover {
+  background: #3cb0fd;
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
 }
