@@ -103,8 +103,21 @@ img
 }
 .skill-row
 {
-  margin: 100 auto;
+
   width: 50%;
+  text-align: left;
+  line-height: 2em;
+  margin: 25px auto;
+}
+
+.codeskilldescription
+{
+  clear: left
+}
+
+table{
+  float: right;
+  margin-right: 30px;
 }
 p
 {
