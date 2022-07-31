@@ -1,6 +1,14 @@
 a
 {
-  color: #11999E
+  color: #11999E;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover
+{
+  color: #eaf6f6;
 }
 body
 {
@@ -14,19 +22,27 @@ button {
   -webkit-border-radius: 28;
   -moz-border-radius: 28;
   border-radius: 8%;
-  font-family: Arial;
+  border-style: none;
+  font-family: "Montserrat", sans-serif;
+
   color: #ffffff;
   font-size: 20px;
+  font-weight:bold;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
   margin-bottom: 50px;
-  border-style: none;
+
 }
 
 button:hover {
   background: #3cb0fd;
   background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
   text-decoration: none;
+
+}
+footer
+{
+  padding: 60px auto 60px auto;
 }
 h1
 {
@@ -80,7 +96,12 @@ table{
   float: right;
   margin-right: 30px;
 }
-
+.copywright
+{
+  color:#3498db;
+  font-size: .75rem;
+  padding: 20px 0;
+}
 .top-container{
   background-color: #D6E6F2;
   padding-top: 20px;
@@ -96,6 +117,7 @@ table{
 .bottom-container
 {
   background-color: #B9D7EA;
+  padding: 60px auto 20px;
 }
 .leaves
 {
@@ -128,6 +150,10 @@ table{
 {
   top: 20px;
 
+}
+.contact-me
+{
+  width: 40% auto;
 }
 .table
 {
